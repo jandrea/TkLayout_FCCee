@@ -29,11 +29,12 @@ to set the number of tracks for geometry and material & resolution calculations 
 Source code edits
 
 Polar angle
-The default FCChh installation of tkLayout uses the pseudorapidity eta. To have material budget and resolution plots in terms of the polar angle theta instead, substitute the file AnalyzerMatBudget.cc AnalyzerMatBudget.h and AnalyzerResolution.cc in your source code folder with the ones in the “Edited source code” folder attached, and recompile the program.
-Many geometry and analysis plots will still use eta to some extend, this is only for material budget and resolution plots at this point.
+
+The default FCChh installation of tkLayout uses the pseudorapidity eta. The  material budget and resolution plots in terms of the polar angle theta has been implemented.
 
 Disc spacing
-By default, tkLayout has its own formula for z-axis disc placement in the endcaps. To have equally-spaced discs between the innerZ and outerZ values specified in your configuration file, substitute the file Endcap.cc in your source code folder with the one in the “Edited source code” folder attached, and recompile the program.
+
+By default, tkLayout has its own formula for z-axis disc placement in the endcaps. In the current version,  equally-spaced discs between the innerZ and outerZ values specified in your configuration file has been implemented
 
 Resolution comparison plots
 
