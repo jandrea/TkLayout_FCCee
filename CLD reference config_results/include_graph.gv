@@ -1,0 +1,24 @@
+digraph aGraph {
+    overlap=false;
+    rankdir=LR;
+    graph [ranksep=2, nodesep=0.1];
+    node_8[label="/opt/sbg/cms/safe1/cms/nlorber/tkLayout/geometries/FCC/ref/Material_TKR.cfg" URL="file:///opt/sbg/cms/safe1/cms/nlorber/tkLayout/geometries/FCC/ref/Material_TKR.cfg"];
+    node_4[label="/opt/sbg/cms/safe1/cms/nlorber/tkLayout/geometries/FCC/ref/Material_VXD_B.cfg" URL="file:///opt/sbg/cms/safe1/cms/nlorber/tkLayout/geometries/FCC/ref/Material_VXD_B.cfg"];
+    node_6[label="/opt/sbg/cms/safe1/cms/nlorber/tkLayout/geometries/FCC/ref/Material_VXD_D.cfg" URL="file:///opt/sbg/cms/safe1/cms/nlorber/tkLayout/geometries/FCC/ref/Material_VXD_D.cfg"];
+    node_7[label="/opt/sbg/cms/safe1/cms/nlorber/tkLayout/geometries/FCC/ref/Pixel_TKR.cfg" URL="file:///opt/sbg/cms/safe1/cms/nlorber/tkLayout/geometries/FCC/ref/Pixel_TKR.cfg"];
+    node_3[label="/opt/sbg/cms/safe1/cms/nlorber/tkLayout/geometries/FCC/ref/Pixel_VXD_B.cfg" URL="file:///opt/sbg/cms/safe1/cms/nlorber/tkLayout/geometries/FCC/ref/Pixel_VXD_B.cfg"];
+    node_5[label="/opt/sbg/cms/safe1/cms/nlorber/tkLayout/geometries/FCC/ref/Pixel_VXD_D.cfg" URL="file:///opt/sbg/cms/safe1/cms/nlorber/tkLayout/geometries/FCC/ref/Pixel_VXD_D.cfg"];
+    node_2[label="/opt/sbg/cms/safe1/cms/nlorber/tkLayout/geometries/FCC/ref/SimParms" URL="file:///opt/sbg/cms/safe1/cms/nlorber/tkLayout/geometries/FCC/ref/SimParms"];
+    node_1[label="ref/cld.cfg" URL="file://ref/cld.cfg"];
+
+    node_1:e -> node_2:w;
+    node_1:e -> node_3:w;
+    node_1:e -> node_4:w;
+    node_1:e -> node_5:w;
+    node_1:e -> node_6:w;
+    node_1:e -> node_7:w;
+    node_1:e -> node_8:w;
+    node_1:e -> node_7:w;
+    node_1:e -> node_8:w;
+}
+

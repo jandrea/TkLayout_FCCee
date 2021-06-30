@@ -1,0 +1,71 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>cld - MatBudget (VXD)</title>
+  <meta http-equiv="cache-control" content="max-age=0" />
+  <meta http-equiv="cache-control" content="no-cache" />
+  <meta http-equiv="expires" content="0" />
+  <meta http-equiv="expires" content="Mon, Jun 14 2021 15:36:46 GMT" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <meta name="keywords" content="CERN tracker design" />
+  <meta name="description" content=" Tracker design summary page" />
+  <link href="../style/default.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" type="image/x-icon" href="../style/images/favicon.ico">
+ </head>
+ <script type="text/javascript" src="../style/functions.js"></script>
+ <body onload="preparePageGoodies();">
+  <div id="outer">
+   <div id="header">
+    <h1>
+     <a href="index.html">cld</a>
+    </h1>
+    <h2><a href="../">Layouts</a></h2>
+   </div>
+   <div id="menu">
+    <ul>
+     <li> <a href="index.html">Overview</a> </li>
+     <li> <a href="indexVXD.html">Geometry (VXD)</a> </li>
+     <li> <a href="indexIT.html">Geometry (IT)</a> </li>
+     <li> <a href="indexOT.html">Geometry (OT)</a> </li>
+     <li class="current"> <a href="indexMBVXD.html">MatBudget (VXD)</a> </li>
+     <li> <a href="indexMBIT.html">MatBudget (IT)</a> </li>
+     <li> <a href="indexMBOT.html">MatBudget (OT)</a> </li>
+     <li> <a href="indexMBTracker.html">MatBudget (Tracker)</a> </li>
+     <li> <a href="indexResolTracker.html">Resolution (Tracker)</a> </li>
+     <li> <a href="indexResolIT+OT.html">Resolution (IT+OT)</a> </li>
+     <li> <a href="indexResolVXD.html">Resolution (VXD)</a> </li>
+     <li> <a href="indexInfo.html">Info</a> </li>
+     <li> <a href="indexLog.html" style = 'background:rgb(255, 255, 0);' >Log</a> </li>
+    </ul>
+   </div>
+   <div id="content">
+    <div id="primaryContentContainer">
+     <div id="primaryContent">
+      <h2 class="hidingTitle">Material overview</h2>
+      <div class="hideable"> <img class='wleftzoom' width='240' height='120' src='./matOverview000-120x120-1200x600_small.png' alt='Material overview in tracking volume: VXD' onclick="popupDiv('./matOverview000', 1200, 600 , 'Material overview in tracking volume: VXD','pdf|root');" /><table><tr><td>Average radiation length [%] in tracking volume (&eta; = [0, 2.6])</td> <td>47.55</td> </tr><tr><td>Average interaction length [%] in tracking volume (&eta; = [0, 2.6])</td> <td>39.85</td> </tr></table>
+      <div class="clearer">&nbsp;</div>      </div>
+      <h2 class="hidingTitle">Material overview by category</h2>
+      <div class="hideable"> <table><tr><th>Average (&eta; = [0, 2.6])</th> <th>Radiation length [%]</th> <th>Interaction length [%]</th> </tr><tr><td>Beam pipe (green)</td> <td>47.55</td> <td>39.85</td> </tr><tr><td>Barrel modules (yellow)</td> <td>0.00</td> <td>0.00</td> </tr><tr><td>Endcap modules (red)</td> <td>0.00</td> <td>0.00</td> </tr><tr><td>Supports (brown)</td> <td>0.00</td> <td>0.00</td> </tr><tr><td>Services (blue)</td> <td>0.00</td> <td>0.00</td> </tr><tr><td>Total</td> <td>47.55</td> <td>39.85</td> </tr></table>
+<img class='wleftzoom' width='240' height='120' src='./riDistrCateg000-120x120-1200x600_small.png' alt='Material overview by category in tracking volume: VXD' onclick="popupDiv('./riDistrCateg000', 1200, 600 , 'Material overview by category in tracking volume: VXD','pdf|root');" />      <div class="clearer">&nbsp;</div>      </div>
+      <h2 class="hidingTitle">Material overview by component</h2>
+      <div class="hidden"> <img class='wleftzoom' width='240' height='120' src='./riDistrComp000-120x120-1200x600_small.png' alt='Material overview by component in tracking volume: VXD' onclick="popupDiv('./riDistrComp000', 1200, 600 , 'Material overview by component in tracking volume: VXD','pdf|root');" />      <div class="clearer">&nbsp;</div>      </div>
+      <h2 class="hidingTitle">Material map</h2>
+      <div class="hideable"> <img class='wleftzoom' width='180' height='120' src='./matMapRad000-120x120-900x600_small.png' alt='Radiation length material map' onclick="popupDiv('./matMapRad000', 900, 600 , 'Radiation length material map','pdf|root');" /><img class='wleftzoom' width='180' height='120' src='./matMapInt000-120x120-900x600_small.png' alt='Interaction length material map' onclick="popupDiv('./matMapInt000', 900, 600 , 'Interaction length material map','pdf|root');" />      <div class="clearer">&nbsp;</div>      </div>
+      <h2 class="hidingTitle">Hits occupancy & track efficiency</h2>
+      <div class="hidden"> <img class='wleftzoom' width='240' height='120' src='./hadHitsTracks000-120x120-1200x600_small.png' alt='Hits occupancy & track efficiency for hadrons' onclick="popupDiv('./hadHitsTracks000', 1200, 600 , 'Hits occupancy & track efficiency for hadrons','pdf|root');" />      <div class="clearer">&nbsp;</div>      </div>
+      <h2 class="hidingTitle">Summary</h2>
+      <div class="hideable"> <table><tr><th>Region: </th> <th>TRK-BRL</th> <th>OT-ECAP</th> <th>IT-ECAP</th> <th>VXD-ECAP</th> </tr><tr><td>Min &eta;:</td> <td>0.0</td> <td>0.6</td> <td>1.0</td> <td>1.5</td> </tr><tr><td>Max &eta;:</td> <td>0.6</td> <td>1.0</td> <td>1.5</td> <td>2.6</td> </tr></table>
+<table><tr><th>Material    </th> <th>TRK-BRL</th> <th>OT-ECAP</th> <th>IT-ECAP</th> <th>VXD-ECAP</th> </tr><tr><td>Rad. length [%]</td> <td>101.18</td> <td>24.80</td> <td>15.49</td> <td>9.67</td> </tr><tr><td>Int. length [%]</td> <td>84.79</td> <td>20.78</td> <td>12.98</td> <td>8.10</td> </tr><tr><td>Photon conv. prob.</td> <td>0.5448</td> <td>0.1754</td> <td>0.1135</td> <td>0.0724</td> </tr></table>
+      <div class="clearer">&nbsp;</div>      </div>
+     </div>
+    </div>
+    <div class="clear"></div>
+   </div>
+   <div id="footer">
+<p> &copy; tkLayout developers: <a href="https://github.com/tkLayout/tkLayout/graphs/contributors">https://github.com/tkLayout/tkLayout/graphs/contributors</a></p>
+    <p>Page created on Mon, Jun 14 2021, 15:36:52 GMT</p>
+    <p>By <a href="https://github.com/tkLayout/tkLayout/tree/masterLite">tkLayout</a>, revision masterLite-986 on https://github.com/tkLayout/tkLayout.git    </p>
+   </div>
+  </div>
+ </body>
+</html>

@@ -1,0 +1,21 @@
+SimParms {
+          
+    numMinBiasEvents       0   // FCC-hh max pile-up
+    zErrorIP               75     // mm 
+    rphiErrorIP            0.01   // mm        
+    useLumiRegInGeomBuild  0
+    useLumiRegInAnalysis   0
+    useIPConstraint        1 //
+    ptCost                 0 // CHF/cm^2         
+    stripCost              0 // CHF/cm^2      
+    efficiency             1     
+    pixelEfficiency        1
+    bunchSpacingNs         20
+    magField               2.0 // [T]
+    magFieldZRegions       16.0 // [m]
+    etaRegionRanges        0.001,0.55,1.0,1.5,2.6                      // The last number represents maximum eta coverage
+    etaRegionNames         TRK-0,TRK-BRL,OT-ECAP,IT-ECAP,VXD-ECAP
+    chargedMapFile         FCChh-Fluka-Charged_RZ.02.March_2017.dat
+    photonsMapFile         FCChh-Fluka-Photons_RZ_e-1MeV_g-100keV.dat
+    bFieldMapFile          FCChh-BField_Feb2017.dat
+}
