@@ -57,18 +57,23 @@ etc.
 Any setting defined within a section is applied to all branching subsections. If the setting is reiterated with a different value in a following subsection, it will overwrite the setting with the new value for the rest of the subsection.
 
 Simulation Parameters
+
 Just any other section of the code, simulation parameters can be defined in an annex .cfg file and referenced in the main configuration file (ex: material files).
 Define general simulation settings such as magnetic field value and eta regions.
+
 Beampipe Parameters
 Radius, thickness, radiation and interaction lengths. The values indicated for these last two items are not defined in g/cm2 or even cm, but are unit-less. They correspond to X/X0 value of the beampipe at eta=0 (theta=90°), and therefore have to be calculated manually by the user based on the beampipe thickness and material.
 Tracker
-bigDelta: shift in r between neighbor ladders in the same (x,y) plane (barrel), or two rings of the same disc (endcap)
+	bigDelta: shift in r between neighbor ladders in the same (x,y) plane (barrel), or two rings of the same disc (endcap)
 smallDelta:  shift in r between neighbor ladders along the z-axis (barrel), or two adjacent modules in the same ring (endcap). Needs to be inferior or equal to bigDelta
 Barrel
-length: ladder length (z-axis)
+
+	length: ladder length (z-axis)
 width: ladder width ((x,y) plane)
 numberRods: number of ladders for a given layer (along phi, i.e. in the (x,y) plane)
 startZMode: moduleedge or modulecenter, position of the first module at z=0
 Endcap
-moduleShape: rectangular or wedge. If rectangular, specify width. If wedge, specify waferDiameter.
-waferDiameter = twice the distance between any corner of the trapezoid and its center (crossing point between all perpendicular bisectors)
+	
+	moduleShape: rectangular or wedge. If rectangular, specify width. If wedge, specify waferDiameter.
+	
+	waferDiameter = twice the distance between any corner of the trapezoid and the center of the trapezoid (crossing point between all perpendicular bisectors)
